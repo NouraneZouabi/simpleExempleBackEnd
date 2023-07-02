@@ -11,6 +11,8 @@ public class plat {
 	    private String titre;
 	    private String description;
 	    private double prix;
+
+		@Lob
 	    private String photo;
 	    
 		public long getId() {
